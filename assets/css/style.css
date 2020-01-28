@@ -16,9 +16,12 @@ textarea {
 .jumbotron {
 	text-align: center;
 	background-color: transparent;
-	color: black;
 	border-radius: 0;
-	border-bottom: 10px solid black;
+	border-bottom: 10px solid #458b76;
+}
+
+.display-3 {
+	color: #458b76;
 }
 
 .description {
@@ -33,6 +36,12 @@ textarea {
 
 .input-display {
 	border-radius: 5px;
+	transition: all ease 0.6s;
+}
+
+.input-display:hover {
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 .input-container {
@@ -71,7 +80,7 @@ textarea {
 
 .present {
 	background-color: rgb(217, 217, 217);
-	border: 1px solid #458b76;
+	border: 2px solid #458b76;
 }
 
 .future {
