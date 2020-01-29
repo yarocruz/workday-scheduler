@@ -116,6 +116,14 @@ $(document).ready(function () {
     }
 
     getEvents();
+
+    // selects the buttons
+    let buttons = $('saveBtn');
+    for (let btn of buttons) {
+        $(btn).on('click', function () {
+            saveEvent();
+        });
+    }
 });
 
 
