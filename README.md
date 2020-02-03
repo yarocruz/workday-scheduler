@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a simple day planner web app. It presents the user with the current date and time at the top and a set of time blocks, from 8am to 5pm specifically, where the user can enter and save an event. The data gets saved to localStorage by either pressing enter or by clicking on the save icon. The styling for the time blocks are styled conditionally acording to the current time. If it's in the past, the background is a lighter gray. For the current hour the block has a darker gray with a green border. Finally for the future time blocks the background color is an even darker gray. 
+This is a simple day planner web app. It presents the user with the current date and time at the top and a set of time blocks, from 8am to 5pm specifically, where the user can enter and save an event. The data gets saved to localStorage when the user presses enter or clicks on the save icon. The styling for the time blocks are styled conditionally acording to the current time. If it's in the past, the background is a lighter gray. For the current hour the block has a darker gray with a green border. Finally for the future time blocks the background color is an even darker gray. 
 
 
 ## Technologies

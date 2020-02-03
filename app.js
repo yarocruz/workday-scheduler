@@ -2,7 +2,6 @@ $(document).ready(function () {
     // Sets Date to current Day and Time
     $('#currentDay').text(moment().format('LLLL'));
 
-    // How the background color will be different colors according to present time
     // Select the .time div 
     let times = $('.time');
     // Use moment to get current time. Just time not date
